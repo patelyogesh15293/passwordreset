@@ -1,0 +1,19 @@
+<% include ./partials/header.ejs %>
+
+<main class="container">
+    <h1>Reset Your Password Here</h1>
+
+    <form method="post">
+        <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">E-mail: *</label>
+            <input name="email" id="email" type="email" required />
+        </div>
+        <button class="btn btn-success col-sm-offset-2">Reset Password</button>
+
+        <hr />
+        Need access?  <a href="/register" title="Register">Register</a>
+    </form>
+
+</main>
+
+<% include ./partials/footer.ejs %>
